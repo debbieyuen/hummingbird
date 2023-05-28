@@ -7,28 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C0F41EB2A23F58C00314CD7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F41EA2A23F58C00314CD7 /* HomeView.swift */; };
+		8C0F41ED2A23F5BB00314CD7 /* PECSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F41EC2A23F5BB00314CD7 /* PECSView.swift */; };
+		8C0F41EF2A23F6DC00314CD7 /* RemoveBackground in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F41EE2A23F6DC00314CD7 /* RemoveBackground */; };
+		8C0F41F22A2406A500314CD7 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F41F12A2406A500314CD7 /* SignInView.swift */; };
+		8C0F420F2A240F9C00314CD7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DEB29A2B42B0009D461 /* WidgetKit.framework */; };
+		8C0F42102A240F9C00314CD7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DED29A2B42B0009D461 /* SwiftUI.framework */; };
+		8C0F42132A240F9C00314CD7 /* CallWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42122A240F9C00314CD7 /* CallWidgetBundle.swift */; };
+		8C0F42152A240F9C00314CD7 /* CallWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42142A240F9C00314CD7 /* CallWidgetLiveActivity.swift */; };
+		8C0F42172A240F9C00314CD7 /* CallWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42162A240F9C00314CD7 /* CallWidget.swift */; };
+		8C0F42192A240F9D00314CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F42182A240F9D00314CD7 /* Assets.xcassets */; };
+		8C0F421D2A240F9D00314CD7 /* CallWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C0F420E2A240F9C00314CD7 /* CallWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C0F42262A240FC100314CD7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DEB29A2B42B0009D461 /* WidgetKit.framework */; };
+		8C0F42272A240FC100314CD7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DED29A2B42B0009D461 /* SwiftUI.framework */; };
+		8C0F422A2A240FC100314CD7 /* BookWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42292A240FC100314CD7 /* BookWidgetBundle.swift */; };
+		8C0F422C2A240FC100314CD7 /* BookWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F422B2A240FC100314CD7 /* BookWidgetLiveActivity.swift */; };
+		8C0F422E2A240FC100314CD7 /* BookWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F422D2A240FC100314CD7 /* BookWidget.swift */; };
+		8C0F42302A240FC200314CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F422F2A240FC200314CD7 /* Assets.xcassets */; };
+		8C0F42342A240FC200314CD7 /* BookWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C0F42252A240FC100314CD7 /* BookWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C0F426B2A24107500314CD7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DEB29A2B42B0009D461 /* WidgetKit.framework */; };
+		8C0F426C2A24107500314CD7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DED29A2B42B0009D461 /* SwiftUI.framework */; };
+		8C0F426F2A24107500314CD7 /* CameraWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F426E2A24107500314CD7 /* CameraWidgetBundle.swift */; };
+		8C0F42712A24107500314CD7 /* CameraWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42702A24107500314CD7 /* CameraWidgetLiveActivity.swift */; };
+		8C0F42732A24107500314CD7 /* CameraWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42722A24107500314CD7 /* CameraWidget.swift */; };
+		8C0F42752A24107600314CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F42742A24107600314CD7 /* Assets.xcassets */; };
+		8C0F42792A24107600314CD7 /* CameraWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C0F426A2A24107500314CD7 /* CameraWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C0F42822A24108700314CD7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DEB29A2B42B0009D461 /* WidgetKit.framework */; };
+		8C0F42832A24108700314CD7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DED29A2B42B0009D461 /* SwiftUI.framework */; };
+		8C0F42862A24108700314CD7 /* ScheduleWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42852A24108700314CD7 /* ScheduleWidgetBundle.swift */; };
+		8C0F42882A24108700314CD7 /* ScheduleWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42872A24108700314CD7 /* ScheduleWidgetLiveActivity.swift */; };
+		8C0F428A2A24108700314CD7 /* ScheduleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42892A24108700314CD7 /* ScheduleWidget.swift */; };
+		8C0F428C2A24108800314CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F428B2A24108800314CD7 /* Assets.xcassets */; };
+		8C0F42902A24108800314CD7 /* ScheduleWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C0F42812A24108700314CD7 /* ScheduleWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C0F42992A2410AA00314CD7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DEB29A2B42B0009D461 /* WidgetKit.framework */; };
+		8C0F429A2A2410AA00314CD7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DED29A2B42B0009D461 /* SwiftUI.framework */; };
+		8C0F429D2A2410AA00314CD7 /* YouTubeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F429C2A2410AA00314CD7 /* YouTubeWidgetBundle.swift */; };
+		8C0F429F2A2410AA00314CD7 /* YouTubeWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F429E2A2410AA00314CD7 /* YouTubeWidgetLiveActivity.swift */; };
+		8C0F42A12A2410AA00314CD7 /* YouTubeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42A02A2410AA00314CD7 /* YouTubeWidget.swift */; };
+		8C0F42A32A2410AA00314CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F42A22A2410AA00314CD7 /* Assets.xcassets */; };
+		8C0F42A72A2410AA00314CD7 /* YouTubeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C0F42982A2410AA00314CD7 /* YouTubeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C0F42B02A2410EA00314CD7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DEB29A2B42B0009D461 /* WidgetKit.framework */; };
+		8C0F42B12A2410EA00314CD7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DED29A2B42B0009D461 /* SwiftUI.framework */; };
+		8C0F42B42A2410EA00314CD7 /* NeedWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42B32A2410EA00314CD7 /* NeedWidgetBundle.swift */; };
+		8C0F42B62A2410EA00314CD7 /* NeedWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42B52A2410EA00314CD7 /* NeedWidgetLiveActivity.swift */; };
+		8C0F42B82A2410EA00314CD7 /* NeedWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F42B72A2410EA00314CD7 /* NeedWidget.swift */; };
+		8C0F42BA2A2410EB00314CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F42B92A2410EB00314CD7 /* Assets.xcassets */; };
+		8C0F42BE2A2410EB00314CD7 /* NeedWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C0F42AF2A2410EA00314CD7 /* NeedWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8C364DD829A099760009D461 /* HummingbirdApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C364DD729A099760009D461 /* HummingbirdApp.swift */; };
 		8C364DDA29A099760009D461 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C364DD929A099760009D461 /* ContentView.swift */; };
 		8C364DDC29A099770009D461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C364DDB29A099770009D461 /* Assets.xcassets */; };
 		8C364DDF29A099770009D461 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C364DDE29A099770009D461 /* Preview Assets.xcassets */; };
-		8C364DEC29A2B42B0009D461 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DEB29A2B42B0009D461 /* WidgetKit.framework */; };
-		8C364DEE29A2B42B0009D461 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C364DED29A2B42B0009D461 /* SwiftUI.framework */; };
-		8C364DF129A2B42B0009D461 /* ScheduleWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C364DF029A2B42B0009D461 /* ScheduleWidgetBundle.swift */; };
-		8C364DF329A2B42B0009D461 /* ScheduleWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C364DF229A2B42B0009D461 /* ScheduleWidgetLiveActivity.swift */; };
-		8C364DF529A2B42B0009D461 /* ScheduleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C364DF429A2B42B0009D461 /* ScheduleWidget.swift */; };
-		8C364DF829A2B42C0009D461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C364DF729A2B42C0009D461 /* Assets.xcassets */; };
-		8C364DFA29A2B42C0009D461 /* ScheduleWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8C364DF629A2B42B0009D461 /* ScheduleWidget.intentdefinition */; };
-		8C364DFB29A2B42C0009D461 /* ScheduleWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8C364DF629A2B42B0009D461 /* ScheduleWidget.intentdefinition */; };
-		8C364DFE29A2B42C0009D461 /* ScheduleWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8C364DE929A2B42B0009D461 /* ScheduleWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8C364DFC29A2B42C0009D461 /* PBXContainerItemProxy */ = {
+		8C0F421B2A240F9D00314CD7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8C364DCC29A099760009D461 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8C364DE829A2B42B0009D461;
+			remoteGlobalIDString = 8C0F420D2A240F9C00314CD7;
+			remoteInfo = CallWidgetExtension;
+		};
+		8C0F42322A240FC200314CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C364DCC29A099760009D461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0F42242A240FC100314CD7;
+			remoteInfo = BookWidgetExtension;
+		};
+		8C0F42772A24107600314CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C364DCC29A099760009D461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0F42692A24107500314CD7;
+			remoteInfo = CameraWidgetExtension;
+		};
+		8C0F428E2A24108800314CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C364DCC29A099760009D461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0F42802A24108700314CD7;
 			remoteInfo = ScheduleWidgetExtension;
+		};
+		8C0F42A52A2410AA00314CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C364DCC29A099760009D461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0F42972A2410AA00314CD7;
+			remoteInfo = YouTubeWidgetExtension;
+		};
+		8C0F42BC2A2410EB00314CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C364DCC29A099760009D461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0F42AE2A2410EA00314CD7;
+			remoteInfo = NeedWidgetExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -39,7 +111,12 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				8C364DFE29A2B42C0009D461 /* ScheduleWidgetExtension.appex in Embed Foundation Extensions */,
+				8C0F42A72A2410AA00314CD7 /* YouTubeWidgetExtension.appex in Embed Foundation Extensions */,
+				8C0F421D2A240F9D00314CD7 /* CallWidgetExtension.appex in Embed Foundation Extensions */,
+				8C0F42342A240FC200314CD7 /* BookWidgetExtension.appex in Embed Foundation Extensions */,
+				8C0F42792A24107600314CD7 /* CameraWidgetExtension.appex in Embed Foundation Extensions */,
+				8C0F42BE2A2410EB00314CD7 /* NeedWidgetExtension.appex in Embed Foundation Extensions */,
+				8C0F42902A24108800314CD7 /* ScheduleWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,23 +124,111 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C0F41EA2A23F58C00314CD7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8C0F41EC2A23F5BB00314CD7 /* PECSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PECSView.swift; sourceTree = "<group>"; };
+		8C0F41EE2A23F6DC00314CD7 /* RemoveBackground */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RemoveBackground; sourceTree = "<group>"; };
+		8C0F41F02A23F8DE00314CD7 /* Hummingbird.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hummingbird.entitlements; sourceTree = "<group>"; };
+		8C0F41F12A2406A500314CD7 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		8C0F420E2A240F9C00314CD7 /* CallWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0F42122A240F9C00314CD7 /* CallWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallWidgetBundle.swift; sourceTree = "<group>"; };
+		8C0F42142A240F9C00314CD7 /* CallWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		8C0F42162A240F9C00314CD7 /* CallWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallWidget.swift; sourceTree = "<group>"; };
+		8C0F42182A240F9D00314CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C0F421A2A240F9D00314CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0F42252A240FC100314CD7 /* BookWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BookWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0F42292A240FC100314CD7 /* BookWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWidgetBundle.swift; sourceTree = "<group>"; };
+		8C0F422B2A240FC100314CD7 /* BookWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		8C0F422D2A240FC100314CD7 /* BookWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWidget.swift; sourceTree = "<group>"; };
+		8C0F422F2A240FC200314CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C0F42312A240FC200314CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0F426A2A24107500314CD7 /* CameraWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CameraWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0F426E2A24107500314CD7 /* CameraWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraWidgetBundle.swift; sourceTree = "<group>"; };
+		8C0F42702A24107500314CD7 /* CameraWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		8C0F42722A24107500314CD7 /* CameraWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraWidget.swift; sourceTree = "<group>"; };
+		8C0F42742A24107600314CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C0F42762A24107600314CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0F42812A24108700314CD7 /* ScheduleWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ScheduleWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0F42852A24108700314CD7 /* ScheduleWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWidgetBundle.swift; sourceTree = "<group>"; };
+		8C0F42872A24108700314CD7 /* ScheduleWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		8C0F42892A24108700314CD7 /* ScheduleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWidget.swift; sourceTree = "<group>"; };
+		8C0F428B2A24108800314CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C0F428D2A24108800314CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0F42982A2410AA00314CD7 /* YouTubeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = YouTubeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0F429C2A2410AA00314CD7 /* YouTubeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeWidgetBundle.swift; sourceTree = "<group>"; };
+		8C0F429E2A2410AA00314CD7 /* YouTubeWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		8C0F42A02A2410AA00314CD7 /* YouTubeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeWidget.swift; sourceTree = "<group>"; };
+		8C0F42A22A2410AA00314CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C0F42A42A2410AA00314CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0F42AF2A2410EA00314CD7 /* NeedWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NeedWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0F42B32A2410EA00314CD7 /* NeedWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedWidgetBundle.swift; sourceTree = "<group>"; };
+		8C0F42B52A2410EA00314CD7 /* NeedWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		8C0F42B72A2410EA00314CD7 /* NeedWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedWidget.swift; sourceTree = "<group>"; };
+		8C0F42B92A2410EB00314CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C0F42BB2A2410EB00314CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C364DD429A099760009D461 /* Hummingbird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hummingbird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C364DD729A099760009D461 /* HummingbirdApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HummingbirdApp.swift; sourceTree = "<group>"; };
 		8C364DD929A099760009D461 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8C364DDB29A099770009D461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C364DDE29A099770009D461 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8C364DE929A2B42B0009D461 /* ScheduleWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ScheduleWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C364DEB29A2B42B0009D461 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		8C364DED29A2B42B0009D461 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		8C364DF029A2B42B0009D461 /* ScheduleWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWidgetBundle.swift; sourceTree = "<group>"; };
-		8C364DF229A2B42B0009D461 /* ScheduleWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWidgetLiveActivity.swift; sourceTree = "<group>"; };
-		8C364DF429A2B42B0009D461 /* ScheduleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWidget.swift; sourceTree = "<group>"; };
-		8C364DF629A2B42B0009D461 /* ScheduleWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = ScheduleWidget.intentdefinition; sourceTree = "<group>"; };
-		8C364DF729A2B42C0009D461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8C364DF929A2B42C0009D461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C0F420B2A240F9C00314CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F42102A240F9C00314CD7 /* SwiftUI.framework in Frameworks */,
+				8C0F420F2A240F9C00314CD7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F42222A240FC100314CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F42272A240FC100314CD7 /* SwiftUI.framework in Frameworks */,
+				8C0F42262A240FC100314CD7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F42672A24107500314CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F426C2A24107500314CD7 /* SwiftUI.framework in Frameworks */,
+				8C0F426B2A24107500314CD7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F427E2A24108700314CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F42832A24108700314CD7 /* SwiftUI.framework in Frameworks */,
+				8C0F42822A24108700314CD7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F42952A2410AA00314CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F429A2A2410AA00314CD7 /* SwiftUI.framework in Frameworks */,
+				8C0F42992A2410AA00314CD7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F42AC2A2410EA00314CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F42B12A2410EA00314CD7 /* SwiftUI.framework in Frameworks */,
+				8C0F42B02A2410EA00314CD7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C364DD129A099760009D461 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,23 +236,91 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C364DE629A2B42B0009D461 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C364DEE29A2B42B0009D461 /* SwiftUI.framework in Frameworks */,
-				8C364DEC29A2B42B0009D461 /* WidgetKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C0F42112A240F9C00314CD7 /* CallWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F42122A240F9C00314CD7 /* CallWidgetBundle.swift */,
+				8C0F42142A240F9C00314CD7 /* CallWidgetLiveActivity.swift */,
+				8C0F42162A240F9C00314CD7 /* CallWidget.swift */,
+				8C0F42182A240F9D00314CD7 /* Assets.xcassets */,
+				8C0F421A2A240F9D00314CD7 /* Info.plist */,
+			);
+			path = CallWidget;
+			sourceTree = "<group>";
+		};
+		8C0F42282A240FC100314CD7 /* BookWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F42292A240FC100314CD7 /* BookWidgetBundle.swift */,
+				8C0F422B2A240FC100314CD7 /* BookWidgetLiveActivity.swift */,
+				8C0F422D2A240FC100314CD7 /* BookWidget.swift */,
+				8C0F422F2A240FC200314CD7 /* Assets.xcassets */,
+				8C0F42312A240FC200314CD7 /* Info.plist */,
+			);
+			path = BookWidget;
+			sourceTree = "<group>";
+		};
+		8C0F426D2A24107500314CD7 /* CameraWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F426E2A24107500314CD7 /* CameraWidgetBundle.swift */,
+				8C0F42702A24107500314CD7 /* CameraWidgetLiveActivity.swift */,
+				8C0F42722A24107500314CD7 /* CameraWidget.swift */,
+				8C0F42742A24107600314CD7 /* Assets.xcassets */,
+				8C0F42762A24107600314CD7 /* Info.plist */,
+			);
+			path = CameraWidget;
+			sourceTree = "<group>";
+		};
+		8C0F42842A24108700314CD7 /* ScheduleWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F42852A24108700314CD7 /* ScheduleWidgetBundle.swift */,
+				8C0F42872A24108700314CD7 /* ScheduleWidgetLiveActivity.swift */,
+				8C0F42892A24108700314CD7 /* ScheduleWidget.swift */,
+				8C0F428B2A24108800314CD7 /* Assets.xcassets */,
+				8C0F428D2A24108800314CD7 /* Info.plist */,
+			);
+			path = ScheduleWidget;
+			sourceTree = "<group>";
+		};
+		8C0F429B2A2410AA00314CD7 /* YouTubeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F429C2A2410AA00314CD7 /* YouTubeWidgetBundle.swift */,
+				8C0F429E2A2410AA00314CD7 /* YouTubeWidgetLiveActivity.swift */,
+				8C0F42A02A2410AA00314CD7 /* YouTubeWidget.swift */,
+				8C0F42A22A2410AA00314CD7 /* Assets.xcassets */,
+				8C0F42A42A2410AA00314CD7 /* Info.plist */,
+			);
+			path = YouTubeWidget;
+			sourceTree = "<group>";
+		};
+		8C0F42B22A2410EA00314CD7 /* NeedWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F42B32A2410EA00314CD7 /* NeedWidgetBundle.swift */,
+				8C0F42B52A2410EA00314CD7 /* NeedWidgetLiveActivity.swift */,
+				8C0F42B72A2410EA00314CD7 /* NeedWidget.swift */,
+				8C0F42B92A2410EB00314CD7 /* Assets.xcassets */,
+				8C0F42BB2A2410EB00314CD7 /* Info.plist */,
+			);
+			path = NeedWidget;
+			sourceTree = "<group>";
+		};
 		8C364DCB29A099760009D461 = {
 			isa = PBXGroup;
 			children = (
 				8C364DD629A099760009D461 /* Hummingbird */,
-				8C364DEF29A2B42B0009D461 /* ScheduleWidget */,
+				8C0F42112A240F9C00314CD7 /* CallWidget */,
+				8C0F42282A240FC100314CD7 /* BookWidget */,
+				8C0F426D2A24107500314CD7 /* CameraWidget */,
+				8C0F42842A24108700314CD7 /* ScheduleWidget */,
+				8C0F429B2A2410AA00314CD7 /* YouTubeWidget */,
+				8C0F42B22A2410EA00314CD7 /* NeedWidget */,
 				8C364DEA29A2B42B0009D461 /* Frameworks */,
 				8C364DD529A099760009D461 /* Products */,
 			);
@@ -97,7 +330,12 @@
 			isa = PBXGroup;
 			children = (
 				8C364DD429A099760009D461 /* Hummingbird.app */,
-				8C364DE929A2B42B0009D461 /* ScheduleWidgetExtension.appex */,
+				8C0F420E2A240F9C00314CD7 /* CallWidgetExtension.appex */,
+				8C0F42252A240FC100314CD7 /* BookWidgetExtension.appex */,
+				8C0F426A2A24107500314CD7 /* CameraWidgetExtension.appex */,
+				8C0F42812A24108700314CD7 /* ScheduleWidgetExtension.appex */,
+				8C0F42982A2410AA00314CD7 /* YouTubeWidgetExtension.appex */,
+				8C0F42AF2A2410EA00314CD7 /* NeedWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +343,14 @@
 		8C364DD629A099760009D461 /* Hummingbird */ = {
 			isa = PBXGroup;
 			children = (
+				8C0F41F02A23F8DE00314CD7 /* Hummingbird.entitlements */,
 				8C364DD729A099760009D461 /* HummingbirdApp.swift */,
 				8C364DD929A099760009D461 /* ContentView.swift */,
+				8C0F41F12A2406A500314CD7 /* SignInView.swift */,
+				8C0F41EA2A23F58C00314CD7 /* HomeView.swift */,
+				8C0F41EC2A23F5BB00314CD7 /* PECSView.swift */,
 				8C364DDB29A099770009D461 /* Assets.xcassets */,
+				8C0F41EE2A23F6DC00314CD7 /* RemoveBackground */,
 				8C364DDD29A099770009D461 /* Preview Content */,
 			);
 			path = Hummingbird;
@@ -130,22 +373,111 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8C364DEF29A2B42B0009D461 /* ScheduleWidget */ = {
-			isa = PBXGroup;
-			children = (
-				8C364DF029A2B42B0009D461 /* ScheduleWidgetBundle.swift */,
-				8C364DF229A2B42B0009D461 /* ScheduleWidgetLiveActivity.swift */,
-				8C364DF429A2B42B0009D461 /* ScheduleWidget.swift */,
-				8C364DF629A2B42B0009D461 /* ScheduleWidget.intentdefinition */,
-				8C364DF729A2B42C0009D461 /* Assets.xcassets */,
-				8C364DF929A2B42C0009D461 /* Info.plist */,
-			);
-			path = ScheduleWidget;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C0F420D2A240F9C00314CD7 /* CallWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0F421E2A240F9D00314CD7 /* Build configuration list for PBXNativeTarget "CallWidgetExtension" */;
+			buildPhases = (
+				8C0F420A2A240F9C00314CD7 /* Sources */,
+				8C0F420B2A240F9C00314CD7 /* Frameworks */,
+				8C0F420C2A240F9C00314CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallWidgetExtension;
+			productName = CallWidgetExtension;
+			productReference = 8C0F420E2A240F9C00314CD7 /* CallWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8C0F42242A240FC100314CD7 /* BookWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0F42352A240FC200314CD7 /* Build configuration list for PBXNativeTarget "BookWidgetExtension" */;
+			buildPhases = (
+				8C0F42212A240FC100314CD7 /* Sources */,
+				8C0F42222A240FC100314CD7 /* Frameworks */,
+				8C0F42232A240FC100314CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookWidgetExtension;
+			productName = BookWidgetExtension;
+			productReference = 8C0F42252A240FC100314CD7 /* BookWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8C0F42692A24107500314CD7 /* CameraWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0F427A2A24107600314CD7 /* Build configuration list for PBXNativeTarget "CameraWidgetExtension" */;
+			buildPhases = (
+				8C0F42662A24107500314CD7 /* Sources */,
+				8C0F42672A24107500314CD7 /* Frameworks */,
+				8C0F42682A24107500314CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraWidgetExtension;
+			productName = CameraWidgetExtension;
+			productReference = 8C0F426A2A24107500314CD7 /* CameraWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8C0F42802A24108700314CD7 /* ScheduleWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0F42912A24108800314CD7 /* Build configuration list for PBXNativeTarget "ScheduleWidgetExtension" */;
+			buildPhases = (
+				8C0F427D2A24108700314CD7 /* Sources */,
+				8C0F427E2A24108700314CD7 /* Frameworks */,
+				8C0F427F2A24108700314CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScheduleWidgetExtension;
+			productName = ScheduleWidgetExtension;
+			productReference = 8C0F42812A24108700314CD7 /* ScheduleWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8C0F42972A2410AA00314CD7 /* YouTubeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0F42A82A2410AB00314CD7 /* Build configuration list for PBXNativeTarget "YouTubeWidgetExtension" */;
+			buildPhases = (
+				8C0F42942A2410AA00314CD7 /* Sources */,
+				8C0F42952A2410AA00314CD7 /* Frameworks */,
+				8C0F42962A2410AA00314CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubeWidgetExtension;
+			productName = YouTubeWidgetExtension;
+			productReference = 8C0F42982A2410AA00314CD7 /* YouTubeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8C0F42AE2A2410EA00314CD7 /* NeedWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0F42BF2A2410EB00314CD7 /* Build configuration list for PBXNativeTarget "NeedWidgetExtension" */;
+			buildPhases = (
+				8C0F42AB2A2410EA00314CD7 /* Sources */,
+				8C0F42AC2A2410EA00314CD7 /* Frameworks */,
+				8C0F42AD2A2410EA00314CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeedWidgetExtension;
+			productName = NeedWidgetExtension;
+			productReference = 8C0F42AF2A2410EA00314CD7 /* NeedWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		8C364DD329A099760009D461 /* Hummingbird */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C364DE229A099770009D461 /* Build configuration list for PBXNativeTarget "Hummingbird" */;
@@ -158,29 +490,17 @@
 			buildRules = (
 			);
 			dependencies = (
-				8C364DFD29A2B42C0009D461 /* PBXTargetDependency */,
+				8C0F421C2A240F9D00314CD7 /* PBXTargetDependency */,
+				8C0F42332A240FC200314CD7 /* PBXTargetDependency */,
+				8C0F42782A24107600314CD7 /* PBXTargetDependency */,
+				8C0F428F2A24108800314CD7 /* PBXTargetDependency */,
+				8C0F42A62A2410AA00314CD7 /* PBXTargetDependency */,
+				8C0F42BD2A2410EB00314CD7 /* PBXTargetDependency */,
 			);
 			name = Hummingbird;
 			productName = Hummingbird;
 			productReference = 8C364DD429A099760009D461 /* Hummingbird.app */;
 			productType = "com.apple.product-type.application";
-		};
-		8C364DE829A2B42B0009D461 /* ScheduleWidgetExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8C364E0229A2B42C0009D461 /* Build configuration list for PBXNativeTarget "ScheduleWidgetExtension" */;
-			buildPhases = (
-				8C364DE529A2B42B0009D461 /* Sources */,
-				8C364DE629A2B42B0009D461 /* Frameworks */,
-				8C364DE729A2B42B0009D461 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ScheduleWidgetExtension;
-			productName = ScheduleWidgetExtension;
-			productReference = 8C364DE929A2B42B0009D461 /* ScheduleWidgetExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -192,10 +512,25 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					8C364DD329A099760009D461 = {
+					8C0F420D2A240F9C00314CD7 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					8C364DE829A2B42B0009D461 = {
+					8C0F42242A240FC100314CD7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8C0F42692A24107500314CD7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8C0F42802A24108700314CD7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8C0F42972A2410AA00314CD7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8C0F42AE2A2410EA00314CD7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8C364DD329A099760009D461 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -214,64 +549,510 @@
 			projectRoot = "";
 			targets = (
 				8C364DD329A099760009D461 /* Hummingbird */,
-				8C364DE829A2B42B0009D461 /* ScheduleWidgetExtension */,
+				8C0F420D2A240F9C00314CD7 /* CallWidgetExtension */,
+				8C0F42242A240FC100314CD7 /* BookWidgetExtension */,
+				8C0F42692A24107500314CD7 /* CameraWidgetExtension */,
+				8C0F42802A24108700314CD7 /* ScheduleWidgetExtension */,
+				8C0F42972A2410AA00314CD7 /* YouTubeWidgetExtension */,
+				8C0F42AE2A2410EA00314CD7 /* NeedWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8C0F420C2A240F9C00314CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F42192A240F9D00314CD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F42232A240FC100314CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F42302A240FC200314CD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F42682A24107500314CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F42752A24107600314CD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F427F2A24108700314CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F428C2A24108800314CD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F42962A2410AA00314CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F42A32A2410AA00314CD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F42AD2A2410EA00314CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F42BA2A2410EB00314CD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C364DD229A099760009D461 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8C364DDF29A099770009D461 /* Preview Assets.xcassets in Resources */,
 				8C364DDC29A099770009D461 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C364DE729A2B42B0009D461 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C364DF829A2B42C0009D461 /* Assets.xcassets in Resources */,
+				8C0F41EF2A23F6DC00314CD7 /* RemoveBackground in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C0F420A2A240F9C00314CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F42152A240F9C00314CD7 /* CallWidgetLiveActivity.swift in Sources */,
+				8C0F42132A240F9C00314CD7 /* CallWidgetBundle.swift in Sources */,
+				8C0F42172A240F9C00314CD7 /* CallWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F42212A240FC100314CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F422E2A240FC100314CD7 /* BookWidget.swift in Sources */,
+				8C0F422A2A240FC100314CD7 /* BookWidgetBundle.swift in Sources */,
+				8C0F422C2A240FC100314CD7 /* BookWidgetLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F42662A24107500314CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F426F2A24107500314CD7 /* CameraWidgetBundle.swift in Sources */,
+				8C0F42732A24107500314CD7 /* CameraWidget.swift in Sources */,
+				8C0F42712A24107500314CD7 /* CameraWidgetLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F427D2A24108700314CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F428A2A24108700314CD7 /* ScheduleWidget.swift in Sources */,
+				8C0F42882A24108700314CD7 /* ScheduleWidgetLiveActivity.swift in Sources */,
+				8C0F42862A24108700314CD7 /* ScheduleWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F42942A2410AA00314CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F42A12A2410AA00314CD7 /* YouTubeWidget.swift in Sources */,
+				8C0F429F2A2410AA00314CD7 /* YouTubeWidgetLiveActivity.swift in Sources */,
+				8C0F429D2A2410AA00314CD7 /* YouTubeWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F42AB2A2410EA00314CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F42B62A2410EA00314CD7 /* NeedWidgetLiveActivity.swift in Sources */,
+				8C0F42B82A2410EA00314CD7 /* NeedWidget.swift in Sources */,
+				8C0F42B42A2410EA00314CD7 /* NeedWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C364DD029A099760009D461 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C0F41EB2A23F58C00314CD7 /* HomeView.swift in Sources */,
 				8C364DDA29A099760009D461 /* ContentView.swift in Sources */,
 				8C364DD829A099760009D461 /* HummingbirdApp.swift in Sources */,
-				8C364DFB29A2B42C0009D461 /* ScheduleWidget.intentdefinition in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C364DE529A2B42B0009D461 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C364DF529A2B42B0009D461 /* ScheduleWidget.swift in Sources */,
-				8C364DFA29A2B42C0009D461 /* ScheduleWidget.intentdefinition in Sources */,
-				8C364DF329A2B42B0009D461 /* ScheduleWidgetLiveActivity.swift in Sources */,
-				8C364DF129A2B42B0009D461 /* ScheduleWidgetBundle.swift in Sources */,
+				8C0F41ED2A23F5BB00314CD7 /* PECSView.swift in Sources */,
+				8C0F41F22A2406A500314CD7 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8C364DFD29A2B42C0009D461 /* PBXTargetDependency */ = {
+		8C0F421C2A240F9D00314CD7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8C364DE829A2B42B0009D461 /* ScheduleWidgetExtension */;
-			targetProxy = 8C364DFC29A2B42C0009D461 /* PBXContainerItemProxy */;
+			target = 8C0F420D2A240F9C00314CD7 /* CallWidgetExtension */;
+			targetProxy = 8C0F421B2A240F9D00314CD7 /* PBXContainerItemProxy */;
+		};
+		8C0F42332A240FC200314CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0F42242A240FC100314CD7 /* BookWidgetExtension */;
+			targetProxy = 8C0F42322A240FC200314CD7 /* PBXContainerItemProxy */;
+		};
+		8C0F42782A24107600314CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0F42692A24107500314CD7 /* CameraWidgetExtension */;
+			targetProxy = 8C0F42772A24107600314CD7 /* PBXContainerItemProxy */;
+		};
+		8C0F428F2A24108800314CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0F42802A24108700314CD7 /* ScheduleWidgetExtension */;
+			targetProxy = 8C0F428E2A24108800314CD7 /* PBXContainerItemProxy */;
+		};
+		8C0F42A62A2410AA00314CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0F42972A2410AA00314CD7 /* YouTubeWidgetExtension */;
+			targetProxy = 8C0F42A52A2410AA00314CD7 /* PBXContainerItemProxy */;
+		};
+		8C0F42BD2A2410EB00314CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0F42AE2A2410EA00314CD7 /* NeedWidgetExtension */;
+			targetProxy = 8C0F42BC2A2410EB00314CD7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		8C0F421F2A240F9D00314CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 325A4B7NVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CallWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.CallWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C0F42202A240F9D00314CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 325A4B7NVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CallWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.CallWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C0F42362A240FC200314CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 325A4B7NVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BookWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.BookWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C0F42372A240FC200314CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 325A4B7NVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BookWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.BookWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C0F427B2A24107600314CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 325A4B7NVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CameraWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.CameraWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C0F427C2A24107600314CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 325A4B7NVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CameraWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.CameraWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C0F42922A24108800314CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 325A4B7NVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScheduleWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScheduleWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.ScheduleWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C0F42932A24108800314CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 325A4B7NVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScheduleWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScheduleWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.ScheduleWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C0F42A92A2410AB00314CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 325A4B7NVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YouTubeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YouTubeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.YouTubeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C0F42AA2A2410AB00314CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 325A4B7NVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YouTubeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YouTubeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.YouTubeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C0F42C02A2410EB00314CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 325A4B7NVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeedWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NeedWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.NeedWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C0F42C12A2410EB00314CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 325A4B7NVW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeedWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NeedWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.NeedWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8C364DE029A099770009D461 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -392,6 +1173,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hummingbird/Hummingbird.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hummingbird/Preview Content\"";
@@ -422,6 +1204,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hummingbird/Hummingbird.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hummingbird/Preview Content\"";
@@ -446,63 +1229,63 @@
 			};
 			name = Release;
 		};
-		8C364E0029A2B42C0009D461 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 325A4B7NVW;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScheduleWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ScheduleWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.ScheduleWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8C364E0129A2B42C0009D461 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 325A4B7NVW;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScheduleWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ScheduleWidget;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = debbieyuen.Hummingbird.ScheduleWidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C0F421E2A240F9D00314CD7 /* Build configuration list for PBXNativeTarget "CallWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0F421F2A240F9D00314CD7 /* Debug */,
+				8C0F42202A240F9D00314CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0F42352A240FC200314CD7 /* Build configuration list for PBXNativeTarget "BookWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0F42362A240FC200314CD7 /* Debug */,
+				8C0F42372A240FC200314CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0F427A2A24107600314CD7 /* Build configuration list for PBXNativeTarget "CameraWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0F427B2A24107600314CD7 /* Debug */,
+				8C0F427C2A24107600314CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0F42912A24108800314CD7 /* Build configuration list for PBXNativeTarget "ScheduleWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0F42922A24108800314CD7 /* Debug */,
+				8C0F42932A24108800314CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0F42A82A2410AB00314CD7 /* Build configuration list for PBXNativeTarget "YouTubeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0F42A92A2410AB00314CD7 /* Debug */,
+				8C0F42AA2A2410AB00314CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0F42BF2A2410EB00314CD7 /* Build configuration list for PBXNativeTarget "NeedWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0F42C02A2410EB00314CD7 /* Debug */,
+				8C0F42C12A2410EB00314CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C364DCF29A099760009D461 /* Build configuration list for PBXProject "Hummingbird" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -517,15 +1300,6 @@
 			buildConfigurations = (
 				8C364DE329A099770009D461 /* Debug */,
 				8C364DE429A099770009D461 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8C364E0229A2B42C0009D461 /* Build configuration list for PBXNativeTarget "ScheduleWidgetExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C364E0029A2B42C0009D461 /* Debug */,
-				8C364E0129A2B42C0009D461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

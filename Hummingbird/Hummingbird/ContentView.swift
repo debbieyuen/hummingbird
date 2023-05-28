@@ -6,16 +6,23 @@
 //
 
 import SwiftUI
+import AuthenticationServices
 
 struct ContentView: View {
+    @AppStorage("email") var email: String = ""
+    @AppStorage("firstName") var firstName: String = ""
+    @AppStorage("lastName") var lastName: String = ""
+    @AppStorage("userID") var userID: String = ""
+    
+    private var isSignedIn: Bool {
+        !userID.isEmpty
+    }
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+            // Sign In View
+            if !isSignedIn { SignInView()} //not signedin
+            else { HomeView() } //signedin
+        }.padding()
     }
 }
 

@@ -2,31 +2,30 @@
 //  ScheduleWidget.swift
 //  ScheduleWidget
 //
-//  Created by Debbie Yuen on 2/19/23.
+//  Created by Debbie Yuen on 5/28/23.
 //
 
 import WidgetKit
 import SwiftUI
-import Intents
 
-struct Provider: IntentTimelineProvider {
+struct Provider: TimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), configuration: ConfigurationIntent())
+        SimpleEntry(date: Date())
     }
 
-    func getSnapshot(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date(), configuration: configuration)
+    func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
+        let entry = SimpleEntry(date: Date())
         completion(entry)
     }
 
-    func getTimeline(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
+    func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
         var entries: [SimpleEntry] = []
 
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date()
         for hourOffset in 0 ..< 5 {
             let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-            let entry = SimpleEntry(date: entryDate, configuration: configuration)
+            let entry = SimpleEntry(date: entryDate)
             entries.append(entry)
         }
 
@@ -37,17 +36,13 @@ struct Provider: IntentTimelineProvider {
 
 struct SimpleEntry: TimelineEntry {
     let date: Date
-    let configuration: ConfigurationIntent
 }
 
 struct ScheduleWidgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        Image("artboard1")
-            .resizable()
-            .aspectRatio(contentMode: .fit)
-        //Text(entry.date, style: .time)
+        Text(entry.date, style: .time)
     }
 }
 
@@ -55,17 +50,17 @@ struct ScheduleWidget: Widget {
     let kind: String = "ScheduleWidget"
 
     var body: some WidgetConfiguration {
-        IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
+        StaticConfiguration(kind: kind, provider: Provider()) { entry in
             ScheduleWidgetEntryView(entry: entry)
         }
-        .configurationDisplayName("YouTube Widget")
-        .description("This is an elarged widget for Kathleen.")
+        .configurationDisplayName("My Widget")
+        .description("This is an example widget.")
     }
 }
 
 struct ScheduleWidget_Previews: PreviewProvider {
     static var previews: some View {
-        ScheduleWidgetEntryView(entry: SimpleEntry(date: Date(), configuration: ConfigurationIntent()))
+        ScheduleWidgetEntryView(entry: SimpleEntry(date: Date()))
             .previewContext(WidgetPreviewContext(family: .systemSmall))
     }
 }

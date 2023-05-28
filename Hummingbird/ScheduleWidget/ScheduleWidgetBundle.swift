@@ -2,7 +2,7 @@
 //  ScheduleWidgetBundle.swift
 //  ScheduleWidget
 //
-//  Created by Debbie Yuen on 2/19/23.
+//  Created by Debbie Yuen on 5/28/23.
 //
 
 import WidgetKit
