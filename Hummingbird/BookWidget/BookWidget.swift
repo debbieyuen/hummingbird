@@ -42,7 +42,17 @@ struct BookWidgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        Text(entry.date, style: .time)
+        ForEach(0..<2) { i in
+            HStack {
+                ForEach(0..<3) { j in ZStack(alignment: .center) {
+                        Image("image \(j)")
+                            .resizable()
+                            .frame(width: 120, height: 120)
+                }
+                .frame(width: 220, height: 200)
+                }
+            }
+        }
     }
 }
 
@@ -50,11 +60,14 @@ struct BookWidget: Widget {
     let kind: String = "BookWidget"
 
     var body: some WidgetConfiguration {
+
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             BookWidgetEntryView(entry: entry)
         }
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
+        .supportedFamilies([.systemExtraLarge])
+
     }
 }
 

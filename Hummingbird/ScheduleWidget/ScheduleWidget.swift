@@ -39,10 +39,17 @@ struct SimpleEntry: TimelineEntry {
 }
 
 struct ScheduleWidgetEntryView : View {
+    @Environment(\.widgetFamily) var widgetFamily
     var entry: Provider.Entry
 
     var body: some View {
-        Text(entry.date, style: .time)
+        switch widgetFamily {
+        case .systemExtraLarge:
+            ScheduleExtraLargeWidget(entry: entry)
+        case .systemLarge:
+            ScheduleExtraLargeWidget(entry: entry)
+        default: Text("Not Implemented")
+        }
     }
 }
 
@@ -53,8 +60,9 @@ struct ScheduleWidget: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             ScheduleWidgetEntryView(entry: entry)
         }
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
+        .configurationDisplayName("Schedule Widget")
+        .description("Today's Schedule.")
+        .supportedFamilies([.systemExtraLarge])
     }
 }
 

@@ -42,7 +42,10 @@ struct NeedWidgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        Text(entry.date, style: .time)
+        Image("help")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .padding(10)
     }
 }
 
@@ -55,6 +58,7 @@ struct NeedWidget: Widget {
         }
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
+        .supportedFamilies([.systemSmall])
     }
 }
 

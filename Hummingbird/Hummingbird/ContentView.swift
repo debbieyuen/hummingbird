@@ -22,7 +22,13 @@ struct ContentView: View {
             // Sign In View
             if !isSignedIn { SignInView()} //not signedin
             else { HomeView() } //signedin
-        }.padding()
+        }.onOpenURL { url in
+            print("Hi hottie alexy")
+            guard
+                url.scheme == "Hummingbird",
+                url.host == "todo"
+            else {return}
+        }
     }
 }
 

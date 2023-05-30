@@ -42,7 +42,9 @@ struct YouTubeWidgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        Text(entry.date, style: .time)
+        Image("YouTube_logo")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
     }
 }
 
@@ -55,6 +57,7 @@ struct YouTubeWidget: Widget {
         }
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
+        .supportedFamilies([.systemSmall])
     }
 }
 

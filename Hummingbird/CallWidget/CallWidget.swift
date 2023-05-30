@@ -42,7 +42,8 @@ struct CallWidgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        Text(entry.date, style: .time)
+        Text("Call Widget")
+//        Text(entry.date, style: .time)
     }
 }
 
@@ -55,6 +56,7 @@ struct CallWidget: Widget {
         }
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
+        .supportedFamilies([.systemLarge])
     }
 }
 
