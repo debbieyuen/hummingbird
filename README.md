@@ -1,94 +1,27 @@
 # Hummingbird (Formerly Euphemia)
 
-<img width="2048" alt="Screen Shot 2023-03-29 at 6 41 58 AM" src="https://user-images.githubusercontent.com/31296177/228558278-40c8560e-ff85-45ee-84ff-ff94a02ae6be.png">
-![IMG_0031](https://github.com/debbieyuen/hummingbird/assets/31296177/1e293021-66f6-45f1-8bf6-bd8afac91cc1)
+<img width="1440" alt="Screen Shot 2023-05-29 at 8 45 03 PM" src="https://github.com/debbieyuen/hummingbird/assets/31296177/6bc5f3f3-0b90-42bc-aeb3-46f6d79909ac">
 
-The Magic School Bus is a web application compatible with Macs and iPads. During my elementary school years, the TV Series, *The Magic School Bus*, brought excitement to science education and sparked my imagination. In this assignment, I bring back my childhood memories of watching Miss. Frizzle and her class launch into space to discover the unknown. In my prototype, drivers begin their launch to outer space, specifically to the stars, via **drive** and **reverse** modes. In reference to the “reach for the stars” idiom, drivers set goals to reach their destinations, the stars. Drivers are also prompted for today’s adventure destination via the input search bar with, “Today on the Magic School Bus, we are going…” written over it. 
 
-The Magic School Bus prototype questions what it means for a driver to get in, drive, and arrive in a Tesla. Can Teslas leave behind a legacy of positivity and inspiration by challenging what “just a drive” is and helping riders discover meaning in their life adventures? 
+My motivation comes from my want to further understand my sister, whom is nonverbal. Throughout my life, I have witnessed how she was ignored and judged for her differences. After seeing her repeatedly ignored, I hope more people try to understand and offer her their friendship. I want to build a stronger relationship with my sister while seeing her included in the same social interactions I receive and see people say hello to her too. My goal of this project is to better social networks that lead to companionship with people with various communication needs. I hope that people who have never interacted with someone with nonverbal autism that they understand that they want to be included and want to be their friend too. That their vocalizations do not mean that they are not interested or have little to no social interest. Instead, it could be expressions of joy. 
 
-The next time you get in your Tesla, swipe up into **drive**, and ask yourself am I finding joy in the journey and arrival of my next adventure? Do I even see it as an adventure? I hope you look forward to **parking**, because there is something up ahead that’s amazing! 
+I realize that for my sister, and other people who are nonverbal, people speaking for them is considered normal or even, expected. How can I include my sister and those who are nonverbal in conversations as well? They want to be included too. They want friends too. On a personal level, I am motivated to better myself in building relationships with those with different communication abilities. I hope that with the development of Euphemia, it can help me and others see life through different perspectives and grow understanding for others.
+
+I hope that through Euphemia, I can try to design for needs and abilities. I want to fill any technological limitation users may have through the phone itself. The mobile application must accommodate different needs and is responsible for creating an accessible experience that allows its users to connect with the people around them.
+
+It is highly relevant to study the experience of nonverbal communication in virtual and physical spaces. The opportunity to be heard and to hear are prerequisites for a sense of connection and belonging with others. Through my research, I open up the conversation of what it looks like to include someone who doesn’t know how to speak a spoken language. I investigate how communication is represented on iPhones and demonstrate that it is important to provide Ms individuals with the right AAC tools but also just as important to invite verbal, non-users of AAC devices to learn how to meaningfully converse with Ms individuals. How can AAC users initiate deep conversations with their own vocabulary words? What could be an AAC that accommodates all individuals, nonverbal or verbal? In future extensive research endeavors, I hope that AACs can capture the essence of nonverbal communication to contribute to a society where all voices are heard and listened to.
 
 
 ### Links
-  * Live Website: https://debbieyuen.github.io/magical/
-  * Video Demo: https://www.youtube.com/watch?v=XTSfzfHcBxM
-
-### Website Interactions
-| Action | Element | Description |
-| --- | --- | --- |
-| Drag yellow car | 🚌 | Swipe down to **reverse** and swipe up to **drive** |
-| Yellow car swipe down | 🚌 | Opens up rear view cameras (your webcam in this prototype) |
-| Yellow car swipe up | 🚌 | Displays navigation and music side panels |
-| Press location button | 🎯 | Prompts you for your location to display your location on map |
-| Tap pink MSB image | 🎆 | Plays the Magic School Bus theme song |
-| Pinch map| 🗺 | Zoom in and out of navigation map |
-| Type in search bar | 🔍 | Search bar will not populate information |
-| Allow permissions| ✅ | Allow app to access your location and webcam |
-
-### Magic School Bus Gears
-| Gears | Symbol | Description |
-| --- | --- | --- |
-| `P`: Park |  ⭐️ | Life is a series of destinations. When and where can you park your car at your destination? Maybe choose some that bring joy, meaning, and fulfillment.  |
-| `R`: Reverse |  ⬇️ |  Reverse is a direction in life. It is neither bad nor good unless you make it out to be so. Reverse is bringing you closer to home or your destination.  |
-| `N`: Neutral |  🌎 | Earth. An important place full of mysteries. |
-| `D`: Drive |  ⬆️ | Your journey to the stars. Eventually, you want to park. |
-
-<img width="2048" alt="Screen Shot 2023-03-29 at 6 48 15 AM" src="https://user-images.githubusercontent.com/31296177/228559116-f68dde3d-69f7-4c27-868b-8554aa9ab37d.png">
+  * SF Design Week: https://sfdesignweek.org/awards/euphemia/
 
 ## Requirements
-  * Greensock GSAP3 (Shockingly)
-  * Mapbox GL JS and token
-  * Flask 1.1.2
-  * Werkzeug 1.0.1
-  * Python 3.8.8
-  * NodeJS v18.8.1
-
+  * XCode 14.2 or higher
+  * OpenAI API token
+  * DeeplabV3 (https://developer.apple.com/machine-learning/models/) 
 
 ## Project Setup
 Clone the repo
 ```bash
 $ git clone https://github.com/debbieyuen/magical.git
-```
-
-Make sure you have NPM. If not installed, install the latest version of NPM.
-```bash
-$ npm install -g npm
-```
-
-Check to make sure it was installed successfully.
-```bash
-$ npm -v
-$ node -v
-```
-
-Set up GSAP by adding the following to your .npmrc file either for your profile ($ vim ~/.npmrc) or at the root of your project.
-```bash
-$ //npm.greensock.com/:_authToken=b7bce164-5019-4e5d-98b5-70eba6754ec4@gsap:registry=https://npm.greensock.com
-```
-
-The first time you install GSAP to a project, install via.
-```bash
-$ npm install gsap@npm:@gsap/shockingly
-```
-
-You may also install all free and bonus plugins by downloading the zip file and installing via the following command.
-```bash
-$ npm install ./gsap-bonsu.tgz
-```
-
-Or install GSAP without bonus plugins. 
-```bash
-$ npm install gsap
-```
-
-Install Flask
-```bash
-$ pip install flask
-```
-
-In Visual Studio Code, install the Live Server Extension to quickly run the website locally on your machine. Else, run the program in your terminal.
-Clone the repo
-```bash
-$ open index.html
 ```
