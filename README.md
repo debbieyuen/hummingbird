@@ -14,14 +14,15 @@ It is highly relevant to study the experience of nonverbal communication in virt
 
 ### Links
   * SF Design Week: https://sfdesignweek.org/awards/euphemia/
+  * Euphemia Repo: https://github.com/debbieyuen/euphemia
 
 ## Requirements
   * XCode 14.2 or higher
-  * OpenAI API token
+  * OpenAI API token (https://platform.openai.com/docs/api-reference) 
   * DeeplabV3 (https://developer.apple.com/machine-learning/models/) 
 
 ## Project Setup
 Clone the repo
 ```bash
-$ git clone https://github.com/debbieyuen/magical.git
+$ git clone https://github.com/debbieyuen/hummingbird.git
 ```
