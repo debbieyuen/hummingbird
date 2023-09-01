@@ -1,4 +1,4 @@
-# Hummingbird (Formerly Euphemia)
+# Project Euphemia (now Hummingbird)
 
 <img width="1440" alt="Screen Shot 2023-05-29 at 8 45 03 PM" src="https://github.com/debbieyuen/hummingbird/assets/31296177/6bc5f3f3-0b90-42bc-aeb3-46f6d79909ac">
 
